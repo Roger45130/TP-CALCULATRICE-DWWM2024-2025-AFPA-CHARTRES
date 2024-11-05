@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JAVASCRIPT | TP - CALCULATRICE</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="apparaitDisparait">
+            <a href="" class="apparaitre">Faire apparaître la calculatrice</a> / <a href="" class="disparaitres">Faire disparaître la calculatrice</a>
+        </div> 
+        <form action="" class="formCal">
+            <div class="form__item">
+                <input type="text" id="denominateur" class="input__text">
+                <select name="symbol" id="symbol__select" class="input__text">
+                    <option value="addition">+</option>
+                    <option value="soustration">-</option>
+                    <option value="multiplication">*</option>
+                    <option value="division">/</option>
+                </select>
+                <input type="text" id="deux__chiffre" class="input__text">
+            </div>
+            <div class="button__container">
+                <button type="submit" class="button__submit">CALCULER</button>
+            </div>
+            <div class="information"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

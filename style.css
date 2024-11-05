@@ -1,0 +1,77 @@
+@import url(../01-ENTRAINEMENT/CSS/reset.css);
+
+html, body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color:#000000
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.apparaitDisparait{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
+.formCal {
+    border: 1px solid #000000;
+    border-radius: 1.5rem;
+    padding: 0 30px;
+    -webkit-box-shadow: 2px 2px 12px 3px rgba(0,0,0,0.27); 
+    box-shadow: 2px 2px 12px 3px rgba(0,0,0,0.27);
+    background-color: #add5f1;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.input__text {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 1px solid #9c9999;
+    margin: 50px 0 0 10px;
+    border-radius: 0.75rem;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 17px 2px rgba(0,0,0,0.27); 
+    box-shadow: 4px 4px 17px 2px rgba(0,0,0,0.27);
+    background-color: #e1eff8;
+    color: #5fbb76;
+}
+
+.input__text:focus{
+    outline: none;
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    border: 1px solid #0d3049;
+    background-color: #7cb3db;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    margin: 30px 0;
+    font-weight: bold;
+    -webkit-box-shadow: 4px 4px 11px 3px rgba(0,0,0,0.27); 
+    box-shadow: 4px 4px 11px 3px rgba(0,0,0,0.27);
+}
