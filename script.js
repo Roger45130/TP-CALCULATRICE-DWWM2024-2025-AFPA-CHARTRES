@@ -38,6 +38,8 @@ document.querySelector('.formCal').addEventListener('submit', function(event) {
     alert(message)
     console.log(resultat);
 });
+
+    //Faire apparaître ou disparraître la calculette
     const apparaitre = document.querySelector('.apparaitre');
     const disparaitre = document.querySelector('.disparaitres');
     const formCal = document.querySelector('.formCal');
